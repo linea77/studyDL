@@ -18,10 +18,13 @@ def draw_plot():
     plt.legend()
     plt.show()
 
-
-if __name__ == "__main__":
+def main():
     x = np.arange(0, 6, 0.1)
 
     sin_plot(x)
     cos_plot(x)
     draw_plot()
+
+
+if __name__ == "__main__":
+    main()

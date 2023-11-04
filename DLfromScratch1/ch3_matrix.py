@@ -25,5 +25,14 @@ B = np.array([[1, 2, 3],
               [5, 6,7]]
               )
 
-print(dot_product(A, B))
-print(dot_product_without_np(A, B))
+
+def main():
+    # Dot product in NeuralNetwork
+    X = np.array([1,2])
+    W = np.array([[1,3,5], [2,4,6]])
+    Y = np.dot(X, W)
+    print(Y)
+
+
+if __name__ == '__main__':
+    main()

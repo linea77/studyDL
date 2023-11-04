@@ -45,13 +45,15 @@ class PerceptronGate():
             return 1
 
 
-
-
-
-
-if __name__ == '__main__':
-    
+def main():
     for x1 in range(2):
         for x2 in range(2):
             gate = PerceptronGate(x1, x2)
             print(x1, x2, gate.XOR())
+            
+
+
+
+if __name__ == '__main__':
+    main()
+    
